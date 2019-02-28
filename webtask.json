@@ -4,6 +4,7 @@
   "category": "log_export",
   "initialUrlPath": "/login",
   "repository": "https://github.com/pwyliu/auth0-logs-to-provider",
+  "codeUrl": "https://github.com/pwyliu/auth0-logs-to-provider/blob/test/index.js",
   "keywords": [
     "auth0",
     "extension"
