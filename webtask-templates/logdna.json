@@ -1,0 +1,21 @@
+{
+  "title": "Auth0 Logs to LogDNA",
+  "name": "auth0-logs-to-logdna",
+  "version": "2.1.0",
+  "description": "This extension will take all of your Auth0 logs and export them to LogDNA",
+  "docsUrl": "https://github.com/pwyliu/auth0-logs-to-provider",
+  "logoUrl": "https://29i4ba1zc0to18kaizc5zs9d-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/logdna-logo.svg",
+  "secrets": {
+    "LOGDNA_INGESTION_KEY": {
+      "description": "LogDNA ingestion key",
+      "required": true,
+      "type": "password"
+    },
+    "LOGDNA_HOSTNAME": {
+      "description": "Hostname for log shipper. Defaults to 'auth0-logs'."
+    },
+    "LOGDNA_APPLICATION_NAME": {
+      "description": "Application name for log shipper. Defaults to 'auth0'."
+    }
+  }
+}
